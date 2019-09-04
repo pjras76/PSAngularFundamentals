@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core'
+import { Component, Input, Output, EventEmitter } from '@angular/core'
 
 @Component({
     selector: 'event-thumbnail',
@@ -12,7 +12,7 @@ import { Component, Input } from '@angular/core'
                 <span>Location: {{event.location.address}}</span>
                 <span>&nbsp;</span>
                 <span>{{event.location.city}}, {{event.location.country}}</span>
-            </div>             
+            </div>            
         </div>
     `
 
