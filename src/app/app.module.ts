@@ -17,10 +17,10 @@ import {
 import { EventsAppComponent } from './events-app.component';
 import { NavbarComponent } from './nav/navbar.component';
 import { ToastrService } from './common/toastr.service';
+import { CollapsibleWellComponent } from './common/collapsible-well.component'
 import { Error404Component } from './errors/404.component';
 import { AuthService } from './user/auth.service'
 import { appRoutes } from './routes';
-
 
 @NgModule({
     imports: [
@@ -38,7 +38,8 @@ import { appRoutes } from './routes';
 		CreateEventComponent,
 		Error404Component,
 		CreateSessionComponent,
-		SessionListComponent
+		SessionListComponent,
+		CollapsibleWellComponent
     ],
     providers: [
 		EventService,
