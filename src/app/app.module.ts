@@ -21,7 +21,8 @@ import {
 	JQ_TOKEN, 
 	TOASTR_TOKEN, 
 	Toastr,
-	CollapsibleWellComponent
+	CollapsibleWellComponent,
+	SimpleModalComponent
 } from './common/index'
 import { Error404Component } from './errors/404.component';
 import { AuthService } from './user/auth.service'
@@ -48,6 +49,7 @@ let jQuery = window['$']
 		CreateSessionComponent,
 		SessionListComponent,
 		CollapsibleWellComponent,
+		SimpleModalComponent,
 		DurationPipe
     ],
     providers: [
