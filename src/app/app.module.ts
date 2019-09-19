@@ -10,7 +10,7 @@ import {
 	EventService,
 	EventDetailsComponent,
 	CreateEventComponent,
-	EventRouteActivator,
+	EventResolver,
 	EventListResolver,
 	CreateSessionComponent,
 	SessionListComponent,
@@ -71,7 +71,7 @@ let jQuery = window['$']
 			provide: JQ_TOKEN,
 			useValue: jQuery
 		},
-		EventRouteActivator,
+		EventResolver,
 		EventListResolver,
 		VoterService,
 		AuthService,
